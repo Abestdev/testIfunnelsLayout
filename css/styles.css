@@ -1,0 +1,281 @@
+@font-face {
+	font-family: Helvetica Neue LT Pro;
+	src: url(../fonts/HelveticaNeueLTPro-Roman.otf);
+}
+@font-face {
+	font-family: Helvetica Neue LT Pro bold;
+	src: url(../fonts/HelveticaNeueLTPro-Blk.otf);
+}
+@font-face {
+	font-family: Helvetica Neue LT Pro heavy;
+	src: url(../fonts/HelveticaNeueLTPro-Hv.otf);
+}
+body{
+	font-family: "Helvetica Neue LT Pro";
+	color: black;
+	background: #e7edf3;
+}
+
+header{
+	background: #2aa9d5;
+}
+/*         {about section}          */
+h1.h1{
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 44px;
+	font-weight: 900;
+}
+h1.h1 span{
+	color: #2aa9d5;
+}
+.timerBlock{
+	position: relative;
+}
+.timerBlock:before, .timerBlock:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #1a3050;
+}
+.timerBlock:before{
+	top: 3px;
+}
+.timerBlock:after{
+	bottom: 7px;
+}
+.about{
+	position: relative;
+}
+.authorImg{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.webinarDescr{
+	font-family: "Helvetica Neue LT Pro heavy";
+	color: #2aa9d5;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.timeCounter{
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 77px;
+	font-weight: 900;
+}
+.webinarDescription{
+	font-family: "Helvetica Neue LT Pro";
+	font-size: 17px;
+	line-height: 23px;
+	color: black;
+	font-weight: 400;
+}
+.webinarDescription span{
+	font-family: "Helvetica Neue LT Pro heavy";
+	color: #2aa9d5;
+	font-weight: 800;
+	font-size: 16px;
+}
+.addZindex1{
+	z-index: 1
+}
+
+/*         {form}          */
+.calendar .month{
+	background: #0791f2;
+	color: white;
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 11px;
+	font-weight: 900;
+	line-height: 19px;
+	padding: 2px 27px;	
+}
+.calendar .date{
+	color: #0791f2;
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 45px;
+	font-weight: 900;
+	line-height: 73px;
+	background: #fff;
+}
+.fullDate{
+	color: black;
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 17px;
+	font-weight: 900;
+}
+.showTMZLink{
+	color: #1a3050;
+	font-family: "Helvetica Neue LT Pro";
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 33px;
+	text-decoration: underline;
+}
+.webinarForm input{
+	font-family: "Helvetica Neue LT Pro heavy";
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	border: none;
+	border-radius: 0;
+	color: #808890;
+}
+.webinarForm button[type=submit], 
+.webinarForm button[type=submit]:focus, 
+.webinarForm button[type=submit]:active{
+	color: white;
+	font-family: "Helvetica Neue LT Pro";
+	font-size: 31px;
+	font-weight: 900;
+	border-radius: 0;
+	box-shadow: none;
+	border: none;
+}
+.webinarForm button[type=submit]:hover{
+	background-color: #5cb85c;
+}
+.requireLabel{
+	color: #1a3050;
+	font-family: "Helvetica Neue LT Pro";
+	font-size: 14px;
+	font-weight: 400;
+}
+.formText{
+	font-family: "Helvetica Neue LT Pro";
+	font-size: 11px;
+	font-weight: 400;
+	color: #1a3050;
+}
+/*         {advantages section}          */
+.advantages {
+	background-color: #fff;
+}
+.advantages h2{
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 38px;
+	font-weight: 900;
+}
+.advantages h5{
+	font-family: "Helvetica Neue LT Pro";
+	font-size: 13px;
+	font-weight: 400;
+}
+.advantages .card-deck .card{
+	text-align: center;
+	color: #000;
+	border: none;
+}
+.advantages .card-deck .card a {
+	text-decoration: none;
+	color: #000;
+}
+.advantages .card-deck .card h5{
+	position: relative;
+	font-family: "Helvetica Neue LT Pro heavy";
+	font-size: 22px;
+	font-weight: 900;
+}
+.advantages .card-deck .card:hover    h5:after{
+	content: '';
+	width: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -20px;
+	border-bottom: 2px solid #84fab0;
+}
+.advantages .card-deck .card i:before{
+	border-radius: 50%;
+	padding: 21px;
+	color: #84fab0;
+	background: #2aa9d5;
+}
+.advantages .card-deck .card:hover    i:before {
+	background: yellow;
+	color: #000;
+}
+/*         {bonus section}          */
+.bonus{
+	background: #2aa9d5;
+}
+.bonus h2{
+	font-family: "Helvetica Neue LT Pro bold";
+
+	font-size: 28px;
+	font-size: 54px;
+	color: white;
+}
+.bonus h5{
+	font-family: "Helvetica Neue LT Pro bold";
+	color: black;
+	font-size: 28px;
+	color: black;
+	font-size: 28px;
+}
+.footnote{
+	
+	font-family: "Helvetica Neue LT Pro bold";
+	font-size: 19px;
+	font-weight: 900;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         {media}          */
+@media (max-width: 575.98px) {
+	.timeCounter {
+		font-size: 40px;
+	}
+	.timerBlock:before {
+		top: 0px;
+	}
+	.webinarDescr {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 767.98px) { ... }
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+
+
+
+
+
+
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+
