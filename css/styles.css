@@ -255,7 +255,11 @@ h1.h1 span{
 
 @media (max-width: 767.98px) { ... }
 
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) { 
+	.authorImg{
+		display: none;
+	}
+}
 
 @media (max-width: 1199.98px) { ... }
 
@@ -266,11 +270,36 @@ h1.h1 span{
 
 
 
+@media (min-width: 320px) and (max-width: 767.98px) { 
+	h1.h1 {
+		font-size: 25px;
+	}
+}
 @media (min-width: 576px) { ... }
 
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) and (max-width:991.98px ) { 
+	h1.h1{
+		font-size: 30px;
+	}
+	.timeCounter {
+    font-size: 46px;
+  }
+}
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) and (max-width:1199.98px) { 
+	h1.h1 {
+		font-size: 27px;
+	}
+	.authorImg {
+		opacity: 0.5;
+	}
+	.webinarDescr {
+		font-size: 23px;
+	}
+	.timeCounter {
+		font-size: 64px;
+	}
+}
 
 @media (min-width: 1200px) { ... }
 
